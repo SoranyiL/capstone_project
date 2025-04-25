@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Find Local Resources</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Community Helper Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="map.html">Map</a></li>
+        <li><a href="submit.html">Submit a Resource</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Browse Local Resources</h2>
+      <p>Use the dropdown to filter by category.</p>
+
+      <label for="categorySelect">Select Category:</label>
+      <select id="categorySelect">
+        <option value="all">All</option>
+        <option value="food">Food</option>
+        <option value="shelter">Shelter</option>
+        <option value="health">Health</option>
+        <option value="community">Community Center</option>
+      </select>
+    </section>
+
+    <section class="resource-list">
+      <table id="resourceTable">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Address</th>
+            <th>Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- JS will inject rows here -->
+        </tbody>
+      </table>
+    </section>
+
+    <section class="extra-info">
+      <h3>Helpful Tips</h3>
+      <ul>
+        <li>Call ahead before visiting a shelter or clinic.</li>
+        <li>Bring ID if required by the facility.</li>
+        <li>Stay safe and ask for help if you need it.</li>
+      </ul>
+
+      <h3>Quick Reminders</h3>
+      <ol>
+        <li>Know your nearest emergency contact.</li>
+        <li>Check hours of operation.</li>
+        <li>Bookmark this page for future use!</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Community Helper Hub</p>
+    <a href="https://www.feedingamerica.org/" target="_blank">Feeding America</a>
+    <a href="https://www.hud.gov/" target="_blank">HUD Resources</a>
+    <a href="https://www.211.org/" target="_blank">211 Community Support</a>
+  </footer>
+
+  <script src="js/resources.js"></script>
+</body>
+</html>
