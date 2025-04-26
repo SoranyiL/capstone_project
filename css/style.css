@@ -41,3 +41,32 @@
   nav ul li a:hover {
     text-decoration: underline;
   }
+
+  .hero {
+    background-color: #a5d6a7;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    background-color: #1b4332;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: #081c15;
+  }

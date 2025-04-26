@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Submit a Resource</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Community Helper Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="map.html">Map</a></li>
+        <li><a href="submit.html">Submit a Resource</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Submit a Local Resource</h2>
+      <p>Help expand our network of community resources!</p>
+    </section>
+
+    <section class="form-section">
+      <form id="resourceForm">
+        <h3>New Resource Form</h3>
+        <label for="name">Resource Name:</label>
+        <input type="text" id="name" required/>
+
+        <label for="category">Category:</label>
+        <select id="category" required>
+          <option value="">Select...</option>
+          <option value="food">Food</option>
+          <option value="shelter">Shelter</option>
+          <option value="health">Health</option>
+          <option value="community">Community Center</option>
+        </select>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" required/>
+
+        <label for="hours">Operating Hours:</label>
+        <input type="text" id="hours" required/>
+
+        <button type="submit">Submit Resource</button>
+      </form>
+    </section>
+
+    <section class="form-section">
+      <form id="feedbackForm">
+        <h3>Feedback Form</h3>
+        <label for="username">Your Name:</label>
+        <input type="text" id="username" required/>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit">Send Feedback</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p> 2025 Community Helper Hub</p>
+  </footer>
+
+  <script src="js/submit.js"></script>
+</body>
+</html>
