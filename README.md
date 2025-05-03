@@ -64,7 +64,7 @@ Languages & Tools:
     GitHub 
 
 User Interface & Design Considerations
-    We prioritized a clean and intuitive design, using a calming color palette of blues and grays with green for success indicators. The layout is consistent across pages, and all forms are clearly labeled. Mobile responsiveness was achieved through CSS media queries, and fonts were chosen for readability.
+    We prioritized a clean and intuitive design, using a calming color palette of blues and grays with green for success indicators. The layout is consistent across pages, and all forms are clearly labeled. Mobile responsiveness was achieved through CSS media queries.
 
     Interactive elements such as map markers and popups offer users a simple, intuitive way to engage with the platform. The UI avoids clutter and encourages community participation without overwhelming users.
 
@@ -80,6 +80,4 @@ Successes:
     Created a fully working site that feels real and useful
 
     Completed all capstone technical and design requirements
-
-    Developed a UI that feels natural for real users, especially mobile users
 
